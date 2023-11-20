@@ -15,7 +15,7 @@
             <p>{{$movie->original_title}}</p>
             <p>{{$movie->nationality}}</p>
             <p>{{$movie->vote}}</p>
-            <a href="{{ route('detail', ['id' => $movie->id])}}" class="btn btn-primary">details</a>
+            <a href="{{ route('detail', ['id' => $movie->id])}}" class="btn btn-success">details</a>
             </div>
         </div>
 

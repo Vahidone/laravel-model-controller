@@ -15,9 +15,10 @@
         <div class="card-body">
           <h5 class="card-title">{{$movie->title}}</h5>
           <p>{{$movie->original_title}}</p>
+          <p>{{ $movie->date}}</p>
           <p>{{$movie->nationality}}</p>
           <p>{{$movie->vote}}</p>
-          <a href="{{ route('home')}}" class="btn btn-primary">Torna</a>
+          <a href="{{ route('home')}}" class="btn btn-danger">Torna</a>
         </div>
     </div>
 
