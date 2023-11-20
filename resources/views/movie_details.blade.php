@@ -2,11 +2,13 @@
 
 
 
+<h1 class="text-center my-5 py-5 text-primary">Movie Details</h1>
+
 @section('content')
 
-   <h1>Movie Details</h1>
 
-<div class="container d-flex flex-wrap my-5 py5">
+
+<div class="container d-flex justify-content-center  flex-wrap my-5 py5 ">
 
     <div class="card m-2" style="width: 18rem;">
         <img src="{{ $movie->image}}" class="card-img-top" alt="{{ $movie->title}}">
@@ -15,7 +17,7 @@
           <p>{{$movie->original_title}}</p>
           <p>{{$movie->nationality}}</p>
           <p>{{$movie->vote}}</p>
-          <a href="{{ route('detail')}}" class="btn btn-primary">Torna</a>
+          <a href="{{ route('home')}}" class="btn btn-primary">Torna</a>
         </div>
     </div>
 

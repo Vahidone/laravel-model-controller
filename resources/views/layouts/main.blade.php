@@ -12,8 +12,11 @@
 <body>
 
     @include('partials.header')
+    <div class="container d-flex justify-content-center my-5 py-5">
+        @yield('content')
+    </div>
 
-    @yield('content')
+
 
 </body>
 </html>
