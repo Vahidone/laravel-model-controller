@@ -2,12 +2,12 @@
 
 
 
-<h1 class="text-center my-5 py-5 text-primary">Movie Details</h1>
+
 
 @section('content')
 
 
-
+<h1 class="text-center my-5 py-5 text-primary">Movie Details</h1>
 <div class="container d-flex justify-content-center  flex-wrap my-5 py5 ">
 
     <div class="card m-2" style="width: 18rem;">

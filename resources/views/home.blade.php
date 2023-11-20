@@ -4,9 +4,9 @@
 
 @section('content')
 
+<h1 class="text-success fw-bold my-5 text-center">Elenco Film</h1>
 
-
-<div class="container d-flex flex-wrap my-5 py5">
+<div class="container d-flex flex-wrap justify-content-center my-5 py5 ">
     @foreach ($movies as $movie)
         <div class="card m-2" style="width: 18rem;">
             <img src="{{ $movie->image}}" class="card-img-top" alt="{{ $movie->title}}">

@@ -13,7 +13,7 @@
 
     @include('partials.header')
 
-    <div class="container d-flex justify-content-center my-5 py-5">
+    <div class="container">
         @yield('content')
     </div>
 
