@@ -11,7 +11,10 @@
 <div class="container d-flex justify-content-center  flex-wrap my-5 py5 ">
 
     <div class="card m-2" style="width: 30rem;">
-        <img src="{{ $movie->image}}" class="card-img-top" alt="{{ $movie->title}}">
+        <figure>
+            <img src="{{ $movie->image}}" class="card-img-top" alt="{{ $movie->title}}">
+        </figure>
+
         <div class="card-body">
             <p class="card-title">titolo: <span class="fw-bold text-primary fs-4">{{$movie->title}}</span></p>
             <p>Titolo originale: <span class="fw-bold">{{$movie->original_title}}</span></p>
